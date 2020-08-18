@@ -12,13 +12,45 @@ height: 100vh;
   background-color: #253141;
   height: 100px;
   padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_user a{
+  color: #FAFAFA;
+  font-size: 16px;
+  background-color: #253141;
+  text-decoration: none;
+}
+
+.new_chat_btn {
+  font-size: 10px;
+}
+
+.new_chat_btn a{
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0px 20px;
+  overflow: scroll;
 }
+
+.room_name {
+  padding: 20px 0 40px;
+}
+
+.room_name a{
+  color: white;
+  text-decoration: none;
+}
+
 
 .main {
   background-color: #ffffff;
